@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 import pyfiglet
 import os
-from colorama import Fore, Back, Style, init
-from random import randint
+from colorama import Fore, Style, init
 init(autoreset=True)
+
+
 
 def display_banner():
     os.system("clear")
@@ -12,7 +13,7 @@ def display_banner():
     print(Fore.LIGHTRED_EX + banner_text)
 
 def bosluk():
-    print("")
+    print(" ")
 
 if __name__ == "__main__":
     # Faylı birbaşa işə salanda banner çıxsın
